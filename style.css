@@ -56,7 +56,7 @@ a {
  
 }
 
-i {
+.iconss {
     color: #fff;
     margin: 0 6px;
 }
@@ -115,23 +115,39 @@ i {
     text-transform: uppercase;
     outline: none;
     cursor: pointer;
-    
-  
-    
-    
+
+}
+
+.btns i{
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
 }
 
 .btn-trans {
     border-radius: 30px;
-    border: 2px solid #ffffff;
+    border: 1.5px solid #ffffff;
+    color: #ffffff;
     font-weight: 600;
     background-color: transparent;
+    width: 210px;
+    height: 40px;
+    font-size: 15px;
+    font-family: "Poppins";
+    text-transform: uppercase;
 
 }
 
 .btn-primary{
     border-radius: 30px;
     font-weight: 600;
+    background-color: transparent;
+    color: #ffffff;
+    width: 210px;
+    height: 40px;
+    font-size: 15px;
+    font-family: "Poppins";
+    text-transform: uppercase;
     border: 2px solid var(--primary);
     background-color: var(--primary);
  
@@ -290,7 +306,7 @@ i {
 .dots-container > div > i{
     font-size: 30px;
     color: #ffffff;
-    padding: 20px 15px;
+    padding: 21px 21px;
 }
 
 
@@ -400,6 +416,12 @@ i {
     font-weight: 700;
     text-transform: uppercase;
     font-family: 'Poppins';
+}
+
+.btn-section i{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
 }
 
 .first-row input,
@@ -713,13 +735,13 @@ footer {
     gap: 15px;
 }
 
-.develi-footer, .contact-us, .links {
+.develi-footer, .contact-us, .links-icons {
     margin-top: 80px;
 
 }
 
 .contact-us h1,
-.links h1{
+.links-icons h1{
     font-size: 18px;
     color: #ffffff;
     font-weight: 700;
@@ -747,7 +769,7 @@ footer {
     
 }
 
-.links p{
+.links-icons p{
     font-size: 14px;
     color: var(--primary);
     font-weight: 400;
@@ -755,7 +777,7 @@ footer {
     margin: 15px 0;
 }
 
-.contact-us i, .develi-footer i{
+.contact-us i, .icons-footer i{
     font-size: 20px;
     width: 24px;
     height: 24px;
