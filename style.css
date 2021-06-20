@@ -140,6 +140,8 @@ i {
 
 /* First Content */
 
+
+
 .first-content {
     background-color: #fff;
     height: 560px;
@@ -219,7 +221,7 @@ i {
     justify-content: start;
     align-items: center;
     gap: 50px;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .third-content {
@@ -274,32 +276,43 @@ i {
 }
 
 .dot1 {
-    height: 70px;
-    width: 70px;
+    height: 75px;
+    width: 75px;
     border-radius: 50%;
     display: inline-block;
     background-color: #47e152;
     position: relative;
     margin: 0 110px;
     margin-top: 75px;
-  
+
+}
+
+.dots-container > div > i{
+    font-size: 30px;
+    color: #ffffff;
+    padding: 20px 15px;
 }
 
 
+
 .dot2 {
-    height: 70px;
-    width: 70px;
+    height: 75px;
+    width: 75px;
     border-radius: 50px;
     display: inline-block;
     background-color: #e8e12e;
     position: relative;
     margin: 0 100px;
+    
    
 }
 
+
+
+
 .dot3 {
-    height: 70px;
-    width: 70px;
+    height: 75px;
+    width: 75px;
     border-radius: 50px;
     display: inline-block;
     background-color: #40cfee;
@@ -307,6 +320,481 @@ i {
     margin: 0 90px;
  
 }
+
+
+/* 4th Content */
+
+.fourth-content{
+    background-image: linear-gradient(0deg, hsl(304, 23%, 76%, 0.7) 0%, hsl(225, 96%, 68%, 0.7) 100%), url(imgs/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 440px;
+    width: 100%;
+}
+
+.fourth-container .grid-cta{
+    grid-template-columns: 35% 65%;
+    gap: 30px;
+}
+
+.grid-cta {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.text-cta h1{
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 700;
+    
+
+
+}
+
+.text-cta p{
+    text-align: justify;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    
+
+}
+
+.text-cta i, u{
+    color: var(--primary);
+    font-size: 20px;
+
+}
+
+.text-cta{
+    padding: 110px;
+  
+}
+
+.forms div > input{
+    width: 340px;
+    height: 55px;
+    border-radius: 30px;
+    margin: 10px 5px;
+    border: transparent;
+    
+}
+
+.btn-submit {
+    width: 700px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #1b6ef2;
+    border: transparent;
+    margin: 10px 0;
+}
+
+.btn-section button{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+}
+
+.first-row input,
+.second-row input,
+.third-row input{
+    padding: 20px;
+    font-size: 19px;
+    color: #777777;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
+
+/* Fifth SEction */
+
+.fifth-section {
+    width: 100%;
+    height: 500px;
+    background-color: #f5f5f5;
+}
+
+.text-testi h1{
+    font-size: 36px;
+    color: #777777;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.testi-card i{
+    font-size: 30px;
+    line-height: 30px;
+    color: #777777;
+}
+
+.testi-card p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #777777;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    padding-top: 30px;
+}
+
+.testi-card {
+    width: 1140px;
+    height: 320px;
+    filter: drop-shadow(0px 2px 20px rgba(0,0,0,0.1));
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 40px;
+   
+
+}
+
+
+
+.stars i {
+    color: #fdcc0d;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    margin: 0;
+}
+
+.testi-imgs img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.testi-imgs p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #212121;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: justify;
+
+}
+
+.text-row p{
+    padding: 1px;
+}
+
+.text-row pre{
+    font-size: 16px;
+    line-height: 30px;
+    color: #212121;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: justify;
+}
+
+.flex-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+
+/* 6th Section */
+
+.six-section {
+    width: 100%;
+    height: 420px;
+    background-color: #ffffff;
+}
+
+.text-blog h1{
+    font-size: 36px;
+    color: #777777;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Poppins";
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.box{
+    width: 263px;
+    height: 180px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 2px 20px rgba(0,0,0,0.1));
+    background-color: #ffffff;
+    margin-top: 50px;
+    position: relative;
+
+}
+
+.blog-text p{
+    width: 218px;
+    height: 88px;
+    font-size: 15px;
+    color: #777777;
+    font-weight: 700;
+    font-family: "Poppins";
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    top: -50px;
+    position: relative;
+    
+}
+
+.blog-date .day {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px 0 0 15px;
+    background-color: var(--primary);
+    filter: drop-shadow(0px 2px 20px rgba(0,0,0,0.1));
+    position: relative;
+    top: -15px;
+    left: 20px;
+    padding: 7px 15px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.blog-date .month{
+    width: 110px;
+    height: 40px;
+    padding: 7px 15px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 2px 20px rgba(0,0,0,0.1));
+    background-color: #000000;
+    border-radius: 0 15px 15px 0;
+    left: 60px;
+    top: -55px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.blog-footer {
+    height: 30px;
+    border-top: 1px solid #cecece;
+    background-color: #fff;
+}
+
+.blog-footer a{
+    font-size: 14px;
+    color: var(--primary);
+    font-weight: 400;
+    font-family: "Poppins";
+    position: relative;
+    top: 0px;
+    left: 150px;
+}
+
+.blog-footer span, i{
+    font-size: 12px;
+    color: var(--primary);
+    font-weight: 400;
+    font-family: "Poppins";
+    position: relative;
+}
+
+
+.six-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+/* Last section */
+
+.last-section{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 456px;
+    width: 100%;
+    background-image: linear-gradient(0deg, hsl(217, 88%, 53%, 0.7) 0%, hsl(0, 82%, 82%, 0.7) 100%), url(imgs/last-bg.jpg);
+}
+
+
+
+.last-container h1{
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+    padding: 55px 0;
+    
+}
+
+.last-container p{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.last-forms input{
+    width: 340px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    border: transparent;
+    font-size: 18px;
+    color: #777777;
+    font-weight: 400;
+    font-family: "Poppins";
+    padding: 0 15px;
+}
+
+.last-forms button{
+    width: 210px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: var(--primary);
+    border: transparent;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-transform: uppercase;
+}
+
+.last-forms i{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.last-forms{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 360px;
+    background-color: #0d1219;
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+ 
+}
+
+.develi-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.develi-footer, .contact-us, .links {
+    margin-top: 80px;
+
+}
+
+.contact-us h1,
+.links h1{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.contact-us p,
+.develi-footer p{
+    font-size: 15px;
+    color: #777777;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: justify;
+    margin-top: 20px;
+    
+}
+
+.develi-logo h1{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Poppins";
+    
+}
+
+.links p{
+    font-size: 14px;
+    color: var(--primary);
+    font-weight: 400;
+    font-family: "Poppins";
+    margin: 15px 0;
+}
+
+.contact-us i, .develi-footer i{
+    font-size: 20px;
+    width: 24px;
+    height: 24px;
+    color: var(--primary);
+    margin: 10px 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 370px;
+    height: 20px;
+    border-top: 1px solid #cecece;
+    padding-top: 25px;
+    
+}
+
+.footer p{
+    font-size: 14px;
+    color: #777777;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
